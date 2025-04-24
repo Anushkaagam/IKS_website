@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header Style */
+        header {
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+
+        /* Container for layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Sidebar Style */
+        .sidebar {
+            width: 250px;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 15px 0;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: block;
+            transition: 0.3s ease-in-out;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #2ecc71;
+            padding-left: 10px;
+            transform: translateX(10px);
+        }
+
+        /* Main Content Section */
+        .samkhya-section {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 800px;
+            margin: 0 auto;
+            transition: 0.3s ease-in-out;
+        }
+
+        .samkhya-section h2 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .samkhya-section p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .samkhya-section img {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: 0.3s ease-in-out;
+        }
+
+        .samkhya-section img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .samkhya-section strong {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        /* Call to Action Button */
+        .cta-button {
+            background-color: #1abc9c;
+            color: white;
+            font-size: 1.2em;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 50px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease-in-out;
+        }
+
+        .cta-button:hover {
+            background-color: #16a085;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+
+            .samkhya-section {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>Deep Dive: Samkhya Philosophy</b></h1>
+    </header>
+    <p class="p1" style="padding: 20px; text-align: justify; font-size: 1.2em; max-width: 1000px; margin: 0 auto;">
+        Since ancient times, Indians have been searching for answers to life’s mysteries. The Samkhya philosophy, attributed to Sage Kapila, is one of the oldest and most analytical systems.
+         It emphasizes numbers and empirical reality.
+        The word 'Samkhya' means 'number' or 'enumeration', referring to its method of categorizing the elements of existence.
+    </p>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="web2.html">HOME</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Section -->
+        <main class="samkhya-section">
+            <h2>The Philosophy of Samkhya</h2>
+            <img src="samkhya1.jpg" alt="Kapila Muni">
+            <p>Kapila Muni is considered the founder of Samkhya and is described in sacred texts like the Bhagavad Gita as a sage with deep yogic insight.</p>
+
+            <img src="samkhya2.jpg" alt="Samkhya Chart">
+            <p>The philosophy identifies dual realities—Purusha (consciousness) and Prakriti (matter)—and proposes the evolution of the universe through their interaction.
+              It recognizes subtle and physical bodies and introduces the concept of reincarnation through subtle body transfer.</p>
+            
+            <p>There are four parts to the subtle body: Buddhi (consciousness), Ahankara (ego), Manas (mind), and Prana (breath).
+            This is illustrated in detailed models explaining the flow of creation.</p>
+
+            <img src="samkhya3.jpg" alt="Samkhya Elements">
+            <p>Each phase of Samkhya development stems from the attraction of Purusha towards Prakriti. 
+             It explains the emergence of the universe and the three gunas—Tamas (inertia), Rajas (activity), and Sattva (purity).</p>
+
+            <img src="samkhya4.jpg" alt="Conclusion">
+            <p><strong>Conclusion:</strong> Among the six darshanas of Hinduism, Samkhya is the oldest. Referenced in Ramayana, Mahabharata, and Bhagavad Gita,
+           its logical approach has preserved it through debates and time. It remains a cornerstone of Indian philosophical thought.</p>
+
+            <!-- Call to Action Button -->
+            <a href="web2.html" class="cta-button">Learn More</a>
+        </main>
+    </div>
+</body>
+</html>
+
